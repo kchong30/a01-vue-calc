@@ -181,37 +181,5 @@ handleClear() {
 };
 </script>
 <style>
-.calculator {
-  background-color: #b81818;
-  border-radius: 5px;
-  padding: 16px;
-}
-
-.display {
-  font-size: 32px;
-  line-height: 1.5;
-  padding: 8px;
-  margin-bottom: 16px;
-  background-color: #fff;
-  border-radius: 3px;
-  text-align: right;
-}
-
-.keys {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-gap: 12px;
-}
-
-button {
-  font-size: 24px;
-  padding: 16px;
-  border-radius: 3px;
-  border: 1px solid #ccc;
-  box-shadow: 0 2px 2px rgba(0, 0, 0, 0.05);
-  background-color: #f9f9f9;
-  color: #333;
-  cursor: pointer;
-}
-
+@import '../assets/calculator.css';
 </style>
